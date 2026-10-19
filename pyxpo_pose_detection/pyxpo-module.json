@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "nativeContract": 1,
+  "name": "pose-detection",
+  "native": "PoseDetection",
+  "ios": { "classes": ["PoseDetectionModule"] },
+  "android": {
+    "namespace": "dev.pyxpo.modules.posedetection",
+    "classes": ["dev.pyxpo.modules.posedetection.PoseDetectionModule"],
+    "dependencies": ["com.google.mlkit:pose-detection:18.0.0-beta5"],
+    "minSdk": 24
+  }
+}
