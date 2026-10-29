@@ -6,7 +6,7 @@ a video. Android runs Google ML Kit pose detection and iOS runs Apple Vision. Bo
 video never leaves the phone.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo/main/packages/pose-detection/docs/images/hero.png" width="820" alt="Doodle Puppet reading a dance video on Android, the stick-figure filmstrip it found, and a drawing dancing those moves">
+  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo-pose-detection/main/docs/images/hero.png" width="820" alt="Doodle Puppet reading a dance video on Android, the stick-figure filmstrip it found, and a drawing dancing those moves">
 </p>
 
 ```python
