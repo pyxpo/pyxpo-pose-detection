@@ -1,5 +1,7 @@
 # pyxpo-pose-detection
 
+[![CI](https://github.com/pyxpo/pyxpo-pose-detection/actions/workflows/ci.yml/badge.svg)](https://github.com/pyxpo/pyxpo-pose-detection/actions/workflows/ci.yml) [![PyPI](https://img.shields.io/pypi/v/pyxpo-pose-detection)](https://pypi.org/project/pyxpo-pose-detection/) [![Python](https://img.shields.io/pypi/pyversions/pyxpo-pose-detection)](https://pypi.org/project/pyxpo-pose-detection/) [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 On-device human pose detection for [pyxpo](https://github.com/pyxpo/pyxpo) apps, written in Python. It finds 17 body
 landmarks (nose, eyes, ears, shoulders, elbows, wrists, hips, knees, ankles) in a photo, or in every sampled frame of
 a video. Android runs Google ML Kit pose detection and iOS runs Apple Vision. Both work offline, and the picture or
